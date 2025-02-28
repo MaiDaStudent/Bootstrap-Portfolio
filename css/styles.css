@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5B6B7D; /* Applied to keep the main sections consistent */
+    color: #FFC71F;
+}
+
+/* Navbar & Footer (Shared Styles) */
+.navbar, .footer {
+    background-color: #1C1038;
+}
+
+.navbar a, .footer-text {
+    color: #30D5C8 !important;
+}
+
+.navbar a:hover {
+    color: #ffffff !important;
+}
+
+/* Hero & Portfolio Section (Shared Background) */
+.hero, .portfolio {
+    background-color: #5B6B7D;
+    padding: 40px 0; /* Ensuring padding consistency */
+}
+
+/* Hero Image */
+.hero-img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Text Fade Animation */
+.animated-text {
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Portfolio Section */
+.portfolio-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Horizontal Lines */
+.line {
+    border: none;
+    height: 2px;
+    background-color: #FFC71F;
+    width: 100%;
+}
+
+/* Cards */
+.custom-card {
+    background-color: #1C1038;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #30D5C8;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Ensures images fit evenly inside the cards */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+}
