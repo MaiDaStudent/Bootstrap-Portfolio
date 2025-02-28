@@ -1,11 +1,9 @@
-/* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #5B6B7D; /* Applied to keep the main sections consistent */
+    background-color: #5B6B7D;
     color: #FFC71F;
 }
 
-/* Navbar & Footer (Shared Styles) */
 .navbar, .footer {
     background-color: #1C1038;
 }
@@ -18,40 +16,20 @@ body {
     color: #ffffff !important;
 }
 
-/* Hero & Portfolio Section (Shared Background) */
 .hero, .portfolio {
     background-color: #5B6B7D;
-    padding: 40px 0; /* Ensuring padding consistency */
+    padding: 40px 0;
 }
 
-/* Hero Image */
 .hero-img {
     max-width: 80%;
     height: auto;
 }
 
-/* Text Fade Animation */
 .animated-text {
     transition: opacity 1s ease-in-out;
 }
 
-.fade-out {
-    opacity: 0;
-}
-
-.fade-in {
-    opacity: 1;
-}
-
-/* Portfolio Section */
-.portfolio-subtitle {
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Horizontal Lines */
 .line {
     border: none;
     height: 2px;
@@ -59,7 +37,6 @@ body {
     width: 100%;
 }
 
-/* Cards */
 .custom-card {
     background-color: #1C1038;
     border-radius: 15px;
@@ -77,14 +54,41 @@ body {
     margin-top: 10px;
 }
 
-/* Ensures images fit evenly inside the cards */
 .card-img-top {
     object-fit: cover;
     height: 200px;
     width: 100%;
 }
 
-/* Footer */
 .footer {
     padding: 20px 0;
+}
+
+.clever-concepts-page .custom-card {
+    display: flex;
+    align-items: stretch;
+    height: 300px;
+    background-color: #1C1038;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.clever-concepts-page .custom-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clever-concepts-page .card-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.clever-concepts-page .card-text {
+    color: #FFFFFF;
+    font-size: 1rem;
 }
